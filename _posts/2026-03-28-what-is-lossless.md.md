@@ -1,5 +1,3 @@
-
-
 ---
 title: "What is lossless?"
 date: 2026-03-22
