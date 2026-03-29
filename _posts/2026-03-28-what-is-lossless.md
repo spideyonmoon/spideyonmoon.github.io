@@ -1,12 +1,12 @@
 ---
-title: "What is lossless?"
+title: "Lossless Audio"
 date: 2026-03-22
 categories: [Audio]
 tags: [lossless, lossy]
 math: true
 ---
 
-## Lossless & Lossy
+
 
 ##### 	***Lossless and lossy are defined strictly relative to the source, not by some arbitrary frequency cut-off or bitrate threshold.***
 
