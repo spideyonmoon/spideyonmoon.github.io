@@ -12,23 +12,23 @@
     font-display: swap;
 }
 
-/* 1. Apply Tiempos STRICTLY to the article prose and title */
-.post-title,
-.post-content p,
-.post-content h1,
-.post-content h2,
-.post-content h3,
-.post-content h4,
-.post-content h5,
-.post-content h6,
-.post-content li,
-.post-content blockquote {
+/* 1. Apply Tiempos STRICTLY to the main title and article prose */
+h1[data-toc-skip],
+.content p,
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6,
+.content li,
+.content blockquote {
     font-family: 'Tiempos', serif !important;
 }
 
 /* 2. Protect inline code and preformatted blocks */
-.post-content code,
-.post-content pre {
+.content code,
+.content pre {
     font-family: var(--font-monospace) !important;
 }
 
@@ -39,7 +39,7 @@
 }
 
 /* 4. Strip the Post Metadata */
-/* Hides the 'Updated' date and the dot divider */
+/* Hides the 'Updated' date */
 .post-meta > span:not(:first-child) {
     display: none !important;
 }
