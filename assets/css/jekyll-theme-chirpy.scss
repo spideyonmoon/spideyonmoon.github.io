@@ -1,0 +1,27 @@
+---
+---
+@use 'main' {
+  {%- if jekyll.environment == 'production' -%}
+    $bundle: true;
+  {%- endif -%}
+};
+
+/* Load the local Tiempos font */
+@font-face {
+    font-family: 'Tiempos';
+    src: url('/assets/fonts/TestTiemposText-Regular.otf') format('truetype'); 
+    /* Change .ttf to .woff2 if your file is a woff2 */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Override Chirpy's default typography variables */
+:root {
+    --font-sans: 'Tiempos', serif;
+    --font-serif: 'Tiempos', serif;
+}
+
+body {
+    font-family: 'Tiempos', serif !important;
+}
