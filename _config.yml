@@ -71,7 +71,7 @@ theme_mode: dark # Locked to dark mode for that clean, IDE-style aesthetic
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /assets/img/avatar.jpg
+avatar: 
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 social_preview_image: 
