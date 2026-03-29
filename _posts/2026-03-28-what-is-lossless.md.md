@@ -98,7 +98,7 @@ Codecs are either Lossless or Lossy. And one of the culprits behind this authent
 
 **Lossless codecs** make bit-perfect identical copy of the source file and use different algorithms to store it. If your source file is already lossy, the codecs will make a lossless copy of *that* source file. You have essentially changed the vessel of your already damaged file without further damage. However, relative to *that source file*, your new one is lossless. Lossless codecs can be separated into Uncompressed and Compressed.
 Practically, this is what both of these are:
-(DANIEL VS THE COOLER DANIEL MEME HERE)
+![Cooler Daniel](/assets/posts/what-is-lossless/danielvscoolderdaniel.jpg)
 
 ---
 
