@@ -1,16 +1,11 @@
 ---
 ---
-@use 'main' {
-  {%- if jekyll.environment == 'production' -%}
-    $bundle: true;
-  {%- endif -%}
-};
+@use 'main';
 
 /* Load the local Tiempos font */
 @font-face {
     font-family: 'Tiempos';
-    src: url('/assets/fonts/TestTiemposText-Regular.otf') format('truetype'); 
-    /* Change .ttf to .woff2 if your file is a woff2 */
+    src: url('/assets/fonts/TestTiemposText-Regular.otf') format('opentype'); 
     font-weight: normal;
     font-style: normal;
     font-display: swap;
