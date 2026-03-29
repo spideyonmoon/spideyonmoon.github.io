@@ -6,7 +6,7 @@ tags: [lossless, lossy]
 math: true
 ---
 
-# Lossless Music
+## Lossless & Lossy
 
 ##### 	***Lossless and lossy are defined strictly relative to the source, not by some arbitrary frequency cut-off or bitrate threshold.***
 
@@ -16,7 +16,7 @@ math: true
 
 ---
 
-#### What the hell is a source?
+## What the hell is a source?
 
 You could find a hundred different definitions for a "source file" if you really want to over-complicate things. Some will argue it’s the raw mix right before dithering and mastering effects are applied. Others will go full purist and claim the original analog multi-track tapes are the only true source. In my book, however, the source file is simply the final, definitive master leaving the studio when production wraps heading for the pressing. The bitter reality is that you do not, cannot, and will not ever own this file, unless you decide to break into the record label's archive. Because we can't have the actual master, we take the closest verifiable thing we can get our hands on and declare *that* our source. This is where things get spicy.
 
@@ -32,7 +32,7 @@ So what do these bits, kHz actually mean? Enter Sample Rate, Bit Depth, Bitrate.
 
 ---
 
-#### Units & Measurements
+## Units & Measurements
 
 Picture a water wheel - actually, not one but an entire mill. Think of the water flowing through as the sound wave the computer is trying to capture. The size of each bucket - how much water it can hold - that's Bit Depth. How many buckets each wheel scoops per second, that's Sample Rate. And the number of wheels is your channels - one wheel for mono, two for stereo, six and eight for multi-channel music.  And the total water delivered per second across each channels combined, which is just those three multiplied together, that's Bitrate. The bigger the buckets, the more frequently they scoop, the more faithfully the wheel captures the stream.
 
@@ -88,7 +88,7 @@ We got the units right. What to do with this information now? Enter Sandman.
 
 ---
 
-#### Codecs & Containers
+## Codecs & Containers
 
 ---
 
@@ -203,7 +203,7 @@ To the ALAC glazers: Remember to zip up Steve's when you're done.
 
 **Lossy Codecs**
 
-<details> <summary>Think of it like image files.</summary> Take a raw photograph straight off a camera sensor — massive file, every pixel at full precision. Now save it as a JPEG. The algorithm looks at regions of similar color and says: these 40 pixels are all slightly different shades of blue, but nobody will notice if I store them as one shade. Gone. When you zoom in close enough you see the blocks, the smearing, the artifacting. At normal viewing distance you see a photo. But that's what lossy is. Replacing precision with a calculated approximation, banking on the limits of human perception to cover the difference.
+<details><summary>Think of it like image files.</summary> Take a raw photograph straight off a camera sensor — massive file, every pixel at full precision. Now save it as a JPEG. The algorithm looks at regions of similar color and says: these 40 pixels are all slightly different shades of blue, but nobody will notice if I store them as one shade. Gone. When you zoom in close enough you see the blocks, the smearing, the artifacting. At normal viewing distance you see a photo. But that's what lossy is. Replacing precision with a calculated approximation, banking on the limits of human perception to cover the difference.</details>
 
 
 YET TO WRITE
@@ -214,15 +214,15 @@ YET TO WRITE
 
 
 
-<details><summary>What about MQA?</summary> MQA (Master Quality Authenticated) was a proprietary lossy format that claimed to be lossless and charged licensing fees to both hardware and software companies to decode it. It was a solution looking for a problem. Multiple independent measurements confirmed it introduced audible distortion and discarded data. Everyone has moved on; FLAC won, again.</details>			
+<details><summary>What about MQA?</summary>MQA (Master Quality Authenticated) was a proprietary lossy format that claimed to be lossless and charged licensing fees to both hardware and software companies to decode it. It was a solution looking for a problem. Multiple independent measurements confirmed it introduced audible distortion and discarded data. Everyone has moved on; FLAC won, again.</details>			
 
 ---
 
-#### Spectrograms
+## Spectrograms
 
 ---
 
-#### Metadata Forensics
+## Metadata Forensics
 
 ---
 
