@@ -71,21 +71,23 @@
   repo: https://github.com/spideyonmoon/fpilot-quicklook
   show: true
 
-# --- Private repos: hidden until you decide to publish them -----------------
+# --- Private repos: shown as a showcase, with no links ----------------------
 
 - name: audio-forensic
   description: 'Tools for checking whether a "lossless" file really is: spectrograms, cut-off detection and upscale checks. Python original, a C app, and a Rust rewrite of the core.'
   lang: Rust · Python · C
   year: 2026
   status: active
-  show: false
+  show: true
 
 - name: alfred
   description: 'A personal assistant across platforms: an Android app, a Windows client and an audio-focused Telegram bot.'
   lang: Kotlin · Rust · Python
   year: 2026
   status: active
-  show: false
+  show: true
+
+# --- Private repos: hidden until you decide to publish them -----------------
 
 - name: mon-key
   description: A typing trainer that mixes Monkeytype's feel with Keybr's adaptive lessons.
