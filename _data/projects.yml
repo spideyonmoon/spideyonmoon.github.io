@@ -74,14 +74,14 @@
 # --- Private repos: hidden until you decide to publish them -----------------
 
 - name: audio-forensic
-  description: Tools for checking whether a "lossless" file really is: spectrograms, cut-off detection and upscale checks. Python original, a C app, and a Rust rewrite of the core.
+  description: 'Tools for checking whether a "lossless" file really is: spectrograms, cut-off detection and upscale checks. Python original, a C app, and a Rust rewrite of the core.'
   lang: Rust · Python · C
   year: 2026
   status: active
   show: false
 
 - name: alfred
-  description: A personal assistant across platforms: an Android app, a Windows client and an audio-focused Telegram bot.
+  description: 'A personal assistant across platforms: an Android app, a Windows client and an audio-focused Telegram bot.'
   lang: Kotlin · Rust · Python
   year: 2026
   status: active
