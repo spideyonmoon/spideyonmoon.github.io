@@ -1,4 +1,34 @@
 ---
-layout: home
-# Index page
+layout: default
 ---
+<div class="intro">
+  <p>I'm Bishal. I write long-form essays, mostly about audio and how digital music actually works, and build small tools when something annoys me enough.</p>
+  <p>This is where both end up.</p>
+</div>
+
+{% assign latest = site.posts.first %}
+{% if latest %}
+<section>
+  <h2 class="label">Latest essay</h2>
+  <a class="feature" href="{{ latest.url | relative_url }}">
+    <p class="meta">
+      <time datetime="{{ latest.date | date_to_xmlschema }}">{{ latest.date | date: "%Y-%m-%d" }}</time>
+      <span class="sep" aria-hidden="true">·</span>
+      {% include reading-time.html content=latest.content %}
+    </p>
+    <h2>{{ latest.title }}</h2>
+    <p>{{ latest.description | default: latest.excerpt | strip_html | strip | truncate: 220 }}</p>
+  </a>
+  {% if site.posts.size > 1 %}<a class="more" href="{{ '/writing/' | relative_url }}">all writing →</a>{% endif %}
+</section>
+{% endif %}
+
+<section>
+  <h2 class="label">Projects</h2>
+  <ul class="projects">
+    {% for project in site.data.projects %}
+      {% if project.show and project.featured %}{% include project.html project=project %}{% endif %}
+    {% endfor %}
+  </ul>
+  <a class="more" href="{{ '/projects/' | relative_url }}">all projects →</a>
+</section>

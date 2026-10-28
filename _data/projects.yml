@@ -1,0 +1,101 @@
+# Projects shown on /projects/ (and on the home page when `featured: true`).
+# Descriptions are placeholders: rewrite them in your own words.
+#
+# Fields:
+#   name, description, lang, year (first year worked on), status
+#   repo      GitHub URL. Leave out for private repos so nothing links to a 404.
+#   link      Live site / bot / docs, if any.
+#   featured  true = also listed on the home page.
+#   show      false = kept here but not published. Private repos start hidden.
+
+- name: karen
+  description: A Telegram bot that tries to do far too much, and mostly manages it. Moderation, utilities and whatever else I needed that week.
+  lang: Go
+  year: 2026
+  status: active
+  repo: https://github.com/spideyonmoon/karen
+  featured: true
+  show: true
+
+- name: freegamesradar
+  description: A Telegram channel bot that posts free game giveaways as they appear, using the GamerPower API.
+  lang: Python
+  year: 2026
+  status: active
+  repo: https://github.com/spideyonmoon/freegamesradar
+  link: https://t.me/freegamesradarhq
+  featured: true
+  show: true
+
+- name: quota-tracker
+  description: A small dashboard for keeping an eye on how much of my AI usage quota is left.
+  lang: TypeScript
+  year: 2026
+  status: active
+  repo: https://github.com/spideyonmoon/quota-tracker
+  link: https://spideyonmoon.github.io/quota-tracker/
+  featured: true
+  show: true
+
+- name: ielts-writing-simulator
+  description: A timed IELTS writing exam simulator in the browser, built to practise under real conditions. With dark mode.
+  lang: HTML
+  year: 2026
+  status: done
+  repo: https://github.com/spideyonmoon/ielts-writing-simulator
+  link: https://spideyonmoon.github.io/ielts-writing-simulator/
+  show: true
+
+- name: study-tracking-portal
+  description: A web portal for logging study sessions and seeing where the hours actually went.
+  lang: TypeScript
+  year: 2026
+  status: active
+  repo: https://github.com/spideyonmoon/study-tracking-portal
+  link: https://study-tracking-portal.vercel.app
+  show: true
+
+- name: batch-zipper
+  description: A Python script that uses NanaZip to archive many folders under one path in a single go.
+  lang: Python
+  year: 2026
+  status: done
+  repo: https://github.com/spideyonmoon/batch-zipper
+  show: true
+
+- name: fpilot-quicklook
+  description: Space-bar QuickLook previews in File Pilot, the way they work in Explorer.
+  lang: C#
+  year: 2026
+  status: archived
+  repo: https://github.com/spideyonmoon/fpilot-quicklook
+  show: true
+
+# --- Private repos: hidden until you decide to publish them -----------------
+
+- name: audio-forensic
+  description: Tools for checking whether a "lossless" file really is: spectrograms, cut-off detection and upscale checks. Python original, a C app, and a Rust rewrite of the core.
+  lang: Rust · Python · C
+  year: 2026
+  status: active
+  show: false
+
+- name: alfred
+  description: A personal assistant across platforms: an Android app, a Windows client and an audio-focused Telegram bot.
+  lang: Kotlin · Rust · Python
+  year: 2026
+  status: active
+  show: false
+
+- name: mon-key
+  description: A typing trainer that mixes Monkeytype's feel with Keybr's adaptive lessons.
+  year: 2025
+  status: active
+  show: false
+
+- name: tg-cleanup-suite
+  description: A Python script for cleaning up a Telegram account in bulk.
+  lang: Python
+  year: 2026
+  status: done
+  show: false
