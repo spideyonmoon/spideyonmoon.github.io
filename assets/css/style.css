@@ -46,7 +46,12 @@ html {
   text-size-adjust: 100%;
 }
 
+/* Full-height column so the footer sits at the bottom on short pages. */
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
   margin: 0 auto;
   max-width: calc(var(--measure) + 2rem);
   padding: 0 1rem;
@@ -83,7 +88,7 @@ a:hover { color: var(--accent); text-decoration-color: currentColor; }
 .site-nav a:hover, .site-nav a[aria-current] { color: var(--fg); }
 .site-nav a[aria-current]::before { content: "/"; color: var(--accent); }
 
-main { padding: 2.5rem 0 3rem; min-height: 60vh; }
+main { flex: 1; min-width: 0; padding: 2.5rem 0 3rem; }
 
 .site-footer {
   display: flex;
