@@ -28,4 +28,4 @@ bundle exec jekyll serve --livereload
 
 Pushing to `main` builds and deploys through `.github/workflows/pages-deploy.yml`.
 
-For the custom domain: add a `CNAME` file containing `bishal.co.uk`, set `url` in `_config.yml`, and point DNS at GitHub Pages.
+The site is served at https://bishal.co.uk. The domain is set in Settings → Pages (no `CNAME` file is needed when deploying with Actions), and DNS lives in Cloudflare.

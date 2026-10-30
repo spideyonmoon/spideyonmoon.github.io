@@ -8,8 +8,8 @@ timezone: Asia/Dhaka
 # Contact: the only place the address is defined. Use {{ site.email }} elsewhere.
 email: hi@bishal.co.uk
 
-# Switch to https://bishal.co.uk (and add a CNAME file) once the domain is live.
-url: "https://spideyonmoon.github.io"
+# The custom domain itself is set in the repo: Settings → Pages → Custom domain.
+url: "https://bishal.co.uk"
 baseurl: ""
 
 github_username: spideyonmoon
