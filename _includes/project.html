@@ -1,0 +1,11 @@
+{%- assign p = include.project -%}
+<li>
+  <div class="project-head">
+    {% if p.repo or p.link %}<a class="project-name" href="{{ p.link | default: p.repo }}">{{ p.name }}</a>{% else %}<span class="project-name">{{ p.name }}</span>{% endif %}
+    <span class="project-meta">{{ p.lang }}{% if p.lang and p.year %} · {% endif %}{{ p.year }}{% if p.status %} · {{ p.status }}{% endif %}</span>
+  </div>
+  <p class="project-desc">{{ p.description }}</p>
+  {% if p.repo and p.link %}
+    <p class="project-links"><a href="{{ p.link }}">site</a><a href="{{ p.repo }}">source</a></p>
+  {% endif %}
+</li>
